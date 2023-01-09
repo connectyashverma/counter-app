@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+}
+
+#countLabel{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 100px;
+     margin-top: 15%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+button {
+    color: white;
+    background-color: #282828;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    height: 4rem;
+    width: 13.5rem;
+    border-radius: .5rem;
+
+}
+
+button:hover{
+    background-color: #FFCD9E;
+    font-weight: bold;
+    color: #282828;    
+}
